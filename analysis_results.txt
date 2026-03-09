@@ -1,0 +1,88 @@
+Analyzing Expense Tracker...                                    
+
+warning - Unused import: 'package:flutter/material.dart' - lib\providers\data_providers.dart:7:8 - unused_import
+   info - 'ProviderRef' is deprecated and shouldn't be used. will be removed in 3.0.0. Use Ref instead - lib\providers\data_providers.g.dart:22:23 - deprecated_member_use
+   info - 'AutoDisposeStreamProviderRef' is deprecated and shouldn't be used. will be removed in 3.0.0. Use Ref instead - lib\providers\data_providers.g.dart:38:30 - deprecated_member_use
+   info - 'AutoDisposeStreamProviderRef' is deprecated and shouldn't be used. will be removed in 3.0.0. Use Ref instead - lib\providers\data_providers.g.dart:52:26 - deprecated_member_use
+   info - 'AutoDisposeFutureProviderRef' is deprecated and shouldn't be used. will be removed in 3.0.0. Use Ref instead - lib\providers\data_providers.g.dart:66:27 - deprecated_member_use
+   info - 'AutoDisposeFutureProviderRef' is deprecated and shouldn't be used. will be removed in 3.0.0. Use Ref instead - lib\providers\data_providers.g.dart:84:7 - deprecated_member_use
+   info - 'AutoDisposeProviderRef' is deprecated and shouldn't be used. will be removed in 3.0.0. Use Ref instead - lib\providers\data_providers.g.dart:100:29 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\add_transaction_screen.dart:103:73 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\add_transaction_screen.dart:105:66 - deprecated_member_use
+   info - Unnecessary use of multiple underscores - lib\screens\add_transaction_screen.dart:141:26 - unnecessary_underscores
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\add_transaction_screen.dart:174:186 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\banking\account_overview_screen.dart:75:48 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\banking\account_overview_screen.dart:162:77 - deprecated_member_use
+   info - Unnecessary use of multiple underscores - lib\screens\banking\account_overview_screen.dart:180:18 - unnecessary_underscores
+   info - 'value' is deprecated and shouldn't be used. Use component accessors like .r or .g, or toARGB32 for an explicit conversion - lib\screens\banking\add_bank_details_screen.dart:126:46 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\banking\add_card_screen.dart:78:65 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\banking\add_card_screen.dart:133:73 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\banking\add_card_screen.dart:149:39 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\banking\add_card_screen.dart:213:29 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\banking\add_card_screen.dart:229:47 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\banking\add_card_screen.dart:280:57 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\banking\add_card_screen.dart:284:57 - deprecated_member_use
+   info - 'value' is deprecated and shouldn't be used. Use component accessors like .r or .g, or toARGB32 for an explicit conversion - lib\screens\banking\add_card_screen.dart:309:48 - deprecated_member_use
+   info - 'value' is deprecated and shouldn't be used. Use component accessors like .r or .g, or toARGB32 for an explicit conversion - lib\screens\banking\add_card_screen.dart:309:80 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\banking\add_upi_details_screen.dart:44:44 - deprecated_member_use
+   info - 'value' is deprecated and shouldn't be used. Use component accessors like .r or .g, or toARGB32 for an explicit conversion - lib\screens\banking\add_upi_details_screen.dart:112:38 - deprecated_member_use
+   info - Unnecessary use of multiple underscores - lib\screens\banking\add_wallet_screen.dart:68:39 - unnecessary_underscores
+   info - 'value' is deprecated and shouldn't be used. Use component accessors like .r or .g, or toARGB32 for an explicit conversion - lib\screens\banking\add_wallet_screen.dart:167:37 - deprecated_member_use
+warning - Unused import: 'package:lucide_icons/lucide_icons.dart' - lib\screens\banking_screen.dart:12:8 - unused_import
+   info - Unnecessary use of multiple underscores - lib\screens\banking_screen.dart:72:20 - unnecessary_underscores
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\banking_screen.dart:152:47 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\banking_screen.dart:161:54 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\banking_screen.dart:215:41 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\banking_screen.dart:224:46 - deprecated_member_use
+   info - Unnecessary use of multiple underscores - lib\screens\choose_account_screen.dart:36:20 - unnecessary_underscores
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\choose_account_screen.dart:50:49 - deprecated_member_use
+   info - Unnecessary use of multiple underscores - lib\screens\history_screen.dart:56:26 - unnecessary_underscores
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\screens\history_screen.dart:73:7 - use_build_context_synchronously
+   info - Unnecessary use of multiple underscores - lib\screens\history_screen.dart:106:28 - unnecessary_underscores
+   info - Unnecessary use of multiple underscores - lib\screens\history_screen.dart:171:31 - unnecessary_underscores
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\history_screen.dart:296:50 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\history_screen.dart:311:52 - deprecated_member_use
+   info - Unnecessary use of multiple underscores - lib\screens\home_screen.dart:39:26 - unnecessary_underscores
+   info - Unnecessary use of multiple underscores - lib\screens\home_screen.dart:90:39 - unnecessary_underscores
+   info - Unnecessary use of multiple underscores - lib\screens\home_screen.dart:110:26 - unnecessary_underscores
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\home_screen.dart:152:67 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\home_screen.dart:159:65 - deprecated_member_use
+   info - Unnecessary use of multiple underscores - lib\screens\home_screen.dart:250:24 - unnecessary_underscores
+   info - The import of 'package:flutter/services.dart' is unnecessary because all of the used elements are also provided by the import of 'package:flutter/material.dart' - lib\screens\main_navigation.dart:2:8 - unnecessary_import
+   info - The local variable '_screens' starts with an underscore - lib\screens\main_navigation.dart:63:24 - no_leading_underscores_for_local_identifiers
+   info - The local variable '_onItemTapped' starts with an underscore - lib\screens\main_navigation.dart:71:10 - no_leading_underscores_for_local_identifiers
+   info - 'WillPopScope' is deprecated and shouldn't be used. Use PopScope instead. The Android predictive back feature will not work with WillPopScope. This feature was deprecated after v3.12.0-1.0.pre - lib\screens\main_navigation.dart:84:12 - deprecated_member_use
+   info - Don't use 'BuildContext's across async gaps - lib\screens\profile\edit_profile_screen.dart:53:9 - use_build_context_synchronously
+warning - Unused import: '../services/user_service.dart' - lib\screens\profile_screen.dart:6:8 - unused_import
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\profile_screen.dart:53:62 - deprecated_member_use
+   info - Unnecessary use of multiple underscores - lib\screens\profile_screen.dart:72:18 - unnecessary_underscores
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\profile_screen.dart:86:33 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\profile_screen.dart:149:41 - deprecated_member_use
+warning - Unused import: 'package:camera/camera.dart' - lib\screens\security\intruder_selfie_screen.dart:5:8 - unused_import
+   info - 'activeColor' is deprecated and shouldn't be used. Use activeThumbColor instead. This feature was deprecated after v3.31.0-2.0.pre - lib\screens\security\intruder_selfie_screen.dart:114:13 - deprecated_member_use
+warning - Unused import: '../../utils/permission_helper.dart' - lib\screens\security\lock_screen.dart:12:8 - unused_import
+   info - The private field _patternPoints could be 'final' - lib\screens\security\lock_screen.dart:40:13 - prefer_final_fields
+   info - Don't use 'BuildContext's across async gaps - lib\screens\security\lock_screen.dart:123:20 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\screens\security\lock_screen.dart:278:31 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\screens\security\lock_screen.dart:289:38 - use_build_context_synchronously
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\security\lock_screen.dart:495:86 - deprecated_member_use
+   info - 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre - lib\screens\security\security_question_dialog.dart:52:15 - deprecated_member_use
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\screens\security\security_question_dialog.dart:70:42 - use_build_context_synchronously
+   info - 'activeColor' is deprecated and shouldn't be used. Use activeThumbColor instead. This feature was deprecated after v3.31.0-2.0.pre - lib\screens\security\security_settings_screen.dart:87:17 - deprecated_member_use
+   info - 'activeColor' is deprecated and shouldn't be used. Use activeThumbColor instead. This feature was deprecated after v3.31.0-2.0.pre - lib\screens\security\security_settings_screen.dart:185:9 - deprecated_member_use
+   info - Don't use 'BuildContext's across async gaps - lib\screens\security\security_settings_screen.dart:201:36 - use_build_context_synchronously
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\security\security_settings_screen.dart:270:66 - deprecated_member_use
+   info - Don't use 'BuildContext's across async gaps - lib\screens\security\security_settings_screen.dart:286:25 - use_build_context_synchronously
+warning - Unused import: 'package:permission_handler/permission_handler.dart' - lib\screens\security\usage_permission_dialog.dart:4:8 - unused_import
+   info - 'value' is deprecated and shouldn't be used. Use component accessors like .r or .g, or toARGB32 for an explicit conversion - lib\services\database_service.dart:52:139 - deprecated_member_use
+   info - 'value' is deprecated and shouldn't be used. Use component accessors like .r or .g, or toARGB32 for an explicit conversion - lib\services\database_service.dart:53:130 - deprecated_member_use
+   info - 'value' is deprecated and shouldn't be used. Use component accessors like .r or .g, or toARGB32 for an explicit conversion - lib\services\database_service.dart:54:135 - deprecated_member_use
+   info - 'value' is deprecated and shouldn't be used. Use component accessors like .r or .g, or toARGB32 for an explicit conversion - lib\services\database_service.dart:55:120 - deprecated_member_use
+   info - Empty catch block - lib\services\upi_monitor_service.dart:47:17 - empty_catches
+   info - Empty catch block - lib\services\upi_monitor_service.dart:75:17 - empty_catches
+   info - Empty catch block - lib\services\upi_monitor_service.dart:84:17 - empty_catches
+   info - The import of 'package:flutter/material.dart' is unnecessary because all of the used elements are also provided by the import of 'package:flutter/services.dart' - lib\utils\card_formatters.dart:1:8 - unnecessary_import
+   info - Use interpolation to compose strings and values - lib\utils\permission_helper.dart:36:23 - prefer_interpolation_to_compose_strings
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\widgets\bank_card.dart:33:74 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\widgets\bank_card.dart:49:41 - deprecated_member_use
+
