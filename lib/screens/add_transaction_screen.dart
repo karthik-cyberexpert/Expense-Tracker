@@ -59,13 +59,6 @@ class _AddTransactionScreenState extends ConsumerState<AddTransactionScreen> {
 
     await ref.read(databaseProvider).addTransaction(transaction);
     
-    // Trigger notification
-    NotificationService.showTransactionNotification(
-      title: transaction.title,
-      amount: amountVal,
-      isIncome: _type == 'Income',
-    );
-    
     if (mounted) {
       Navigator.of(context).pop();
     }

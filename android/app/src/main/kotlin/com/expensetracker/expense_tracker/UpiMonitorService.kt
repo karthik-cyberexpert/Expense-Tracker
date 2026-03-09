@@ -19,6 +19,7 @@ class UpiMonitorService : Service() {
     private var lastApp: String? = null
     private var isInUpiApp = false
     private var lastUpiApp: String? = null
+    private var lastExitTime: Long = 0
 
     private val upiApps = listOf(
         "com.google.android.apps.nbu.paisa.user", // Google Pay (IN)
@@ -96,8 +97,12 @@ class UpiMonitorService : Service() {
             // instead of a full app exit. 
             val ignorePackages = listOf("android", "com.android.systemui", "com.google.android.gms")
             if (isInUpiApp && !ignorePackages.contains(currentApp)) {
-                Log.d("UpiMonitor", "TARGET UPI APP EXITED: $lastUpiApp (current: $currentApp)")
-                showExitNotification(lastUpiApp!!)
+                val now = System.currentTimeMillis()
+                if (now - lastExitTime > 3000) { // 3-second cooldown
+                    Log.d("UpiMonitor", "TARGET UPI APP EXITED: $lastUpiApp (current: $currentApp)")
+                    showExitNotification(lastUpiApp!!)
+                    lastExitTime = now
+                }
                 isInUpiApp = false
             }
         }
