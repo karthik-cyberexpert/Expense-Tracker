@@ -34,7 +34,27 @@
 
 ---
 
-## 💎 Key Features
+## � App Screenshots
+<div align="center">
+  <table>
+    <tr>
+      <td><img src="assets/readme/home.png" width="200" alt="Home Screen"></td>
+      <td><img src="assets/readme/add_transaction.png" width="200" alt="Add Transaction"></td>
+      <td><img src="assets/readme/banking.png" width="200" alt="Banking"></td>
+      <td><img src="assets/readme/profile.png" width="200" alt="Profile"></td>
+    </tr>
+    <tr>
+      <td align="center"><b>Dashboard</b></td>
+      <td align="center"><b>Smart Entry</b></td>
+      <td align="center"><b>Multi-Account</b></td>
+      <td align="center"><b>Settings</b></td>
+    </tr>
+  </table>
+</div>
+
+---
+
+## �💎 Key Features
 
 - 🏦 **Banking Mastery**: Seamlessly manage multiple accounts (Savings, Salary, Credit) with custom colors and brand logos.
 - 📊 **Dynamic Analytics**: Visualize your spending habits with interactive **fl_chart** reports (Income vs. Spent).
