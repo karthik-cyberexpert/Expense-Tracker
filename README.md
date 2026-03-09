@@ -14,11 +14,11 @@
 ---
 
 ### 🚀 **Direct Download**
-<a href="https://github.com/karthik-cyberexpert/Expense-Tracker/releases/download/v1.0.1/Expense-Tracker.apk">
+<a href="https://github.com/karthik-cyberexpert/Expense-Tracker/releases/download/v1.0.2/Expense-Tracker-v1.0.2.apk">
   <img src="https://img.shields.io/badge/Download-APK-orange?style=for-the-badge&logo=android&logoColor=white" height="40">
 </a>
 
-[**Download Latest APK (v1.0.1)**](https://github.com/karthik-cyberexpert/Expense-Tracker/releases/download/v1.0.1/Expense-Tracker.apk)
+[**Download Latest APK (v1.0.2)**](https://github.com/karthik-cyberexpert/Expense-Tracker/releases/download/v1.0.2/Expense-Tracker-v1.0.2.apk)
 
 </div>
 
